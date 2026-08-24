@@ -27,18 +27,28 @@ El script `ipynb2pdf.sh` permite convertir notebooks `.ipynb` a PDF de forma sen
 
 **Uso:**
 
+Convierte todos los notebooks `.ipynb` del directorio actual:
+
 ```bash
 ./ipynb2pdf.sh
+```
 
 Convierte un notebook específico indicando su nombre:
 
-bash
+```bash
 ./ipynb2pdf.sh nombre_notebook.ipynb
-El PDF resultante se guarda en la misma carpeta que el notebook original, con el mismo nombre pero extensión .pdf.
+```
 
 También se pueden convertir varios notebooks a la vez:
 
-bash
+```bash
 ./ipynb2pdf.sh notebook1.ipynb notebook2.ipynb
+```
+
+El PDF resultante se guarda en la **misma carpeta** que el notebook original, con el mismo nombre pero extensión `.pdf`.
+
+## Acerca de la asignatura
+
+**Teoría Electromagnética** abarca el estudio de los campos eléctricos y magnéticos, sus interacciones y aplicaciones, partiendo de las ecuaciones de Maxwell y métodos matemáticos para su resolución.
 
 
