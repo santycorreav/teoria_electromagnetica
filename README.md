@@ -30,5 +30,15 @@ El script `ipynb2pdf.sh` permite convertir notebooks `.ipynb` a PDF de forma sen
 ```bash
 ./ipynb2pdf.sh
 
+Convierte un notebook específico indicando su nombre:
+
+bash
+./ipynb2pdf.sh nombre_notebook.ipynb
+El PDF resultante se guarda en la misma carpeta que el notebook original, con el mismo nombre pero extensión .pdf.
+
+También se pueden convertir varios notebooks a la vez:
+
+bash
+./ipynb2pdf.sh notebook1.ipynb notebook2.ipynb
 
 
