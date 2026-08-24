@@ -1,2 +1,31 @@
-# teoria_electromagnetica
-repositorio en donde se subiran tareas, talleres de la materia teoria electromagnetica con el profesor jader guerrero
+# Teoría Electromagnética
+
+Repositorio académico de la asignatura **Teoría Electromagnética** con el profesor **Jader Guerrero**.
+
+En este repositorio se almacenarán todas las actividades del curso: **tareas, talleres, trabajos, ejercicios de clase**, y cualquier otro material desarrollado durante el semestre.
+
+## 👥 Integrantes del grupo
+
+- **Camila Valentina Castillo**
+- **Bryan Alejandro Berbesi**
+- **Samuel González**
+- **Santiago Correa Vergara**
+
+## 📁 Estructura del repositorio
+
+- `tareas/` → Carpeta destinada a contener las tareas resueltas (notebooks, PDFs, etc.)
+- `ipynb2pdf.sh` → Script auxiliar para convertir notebooks de Jupyter a PDF.
+- `README.md` → Información general del repositorio.
+
+> A medida que se agreguen nuevas actividades, se crearán carpetas adicionales como `talleres/`, `ejercicios/`, `trabajos/`, etc.
+
+## 🛠️ Herramientas útiles
+
+### Convertir notebooks a PDF
+
+El script `ipynb2pdf.sh` permite convertir notebooks `.ipynb` a PDF de forma sencilla.
+
+**Uso:**
+
+```bash
+./ipynb2pdf.sh
